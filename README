@@ -1,0 +1,13 @@
+Naam: Karnaukh Maksim
+Studentennummer: 20201604
+
+Geïmplementeerd:
+2D L-systemen punt 1 t.e.m. 3 .
+L-Systemen met haakjes
+L-systemen met stochastische replacement rules
+(alles werd geïmplementeerd)
+
+!!! Er is momenteel 1 klein probleempje (denk ik) (op lijn 491 in de functie LParser::LSystem& LParser::LSystem::operator=(LParser::LSystem const& system),
+zit er blijkbaar een endless loop, hoewel ik in deze functie zelf niets heb aangepast en het in het begin niet zo was volgens mij).
+Alles werkt wel (alle voorbeeldbestanden werken), 
+Voor de duidelijkheid, het voorbeeldbestand voor de stochastische rep. rules heet l_systems027SRR, en het zit in de SRR directory.
